@@ -1,3 +1,12 @@
+/*
+ * @Author: your name
+ * @Date: 2021-10-07 11:37:40
+ * @LastEditTime: 2021-10-07 11:37:40
+ * @LastEditors: your name
+ * @Description: In User Settings Edit
+ * @FilePath: /os_project/os_project/project2/p2.c
+ */
+//effwwfwfwaef
 #include<stdio.h>
 #include<unistd.h>
 #include<sys/types.h>
