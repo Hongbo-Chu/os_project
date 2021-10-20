@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2021-10-20 10:00:02
- * @LastEditTime: 2021-10-20 10:44:10
+ * @LastEditTime: 2021-10-20 14:32:22
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /os_project/os_project/project6/p6.c
@@ -43,6 +43,6 @@ exit (1);
 for(i=0;i<3;i++){
 printf("This is the main process.\n");
 }
-pthread_join(id,NULL);
+pthread_join(id,NULL);//D等子线程运行完毕后，主线程再结束
 return (0);
 }
